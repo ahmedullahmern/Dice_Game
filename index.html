@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="Main">
+
+        <center>
+            <h1 class="animate__animated animate__swing"> Dice Game</h1>
+            <br>
+            <h3 class="fe" id="fe"></h3>
+            <div class="center">
+                <div class="main1">
+                    <div id="star_btn" class="box" onclick="chal(1)" id="btn">1</div>
+                    <div class="box" onclick="chal(2)" id="btn">2</div>
+                    <div class="box" onclick="chal(3)" id="btn">3</div>
+                    <div class="box" onclick="chal(4)" id="btn">4</div>
+                    <div class="box" onclick="chal(5)" id="btn">5</div>
+                    <div class="box" onclick="chal(6)" id="btn">6</div>
+                </div>
+                <div class="main1">
+                    <div class="daba"><b>User Number <span id="usernumber">:10</span></b></div>
+                    <div class="daba"><b>Random Number</b><span id="randomnumber">:3</span></div>
+                    <div class="daba" id="dwl"><b id="winloss">You Win / Loss</b></div>
+                </div>
+                <div class="main1">
+                    <div class="daba"><b>Truns :</b><span id="gahte">10</span></div>
+                    <div class="daba"> <b>Win :</b><span id="inw">0</span></div>
+                    <div class="daba"><b>Loss :</b><span id="inl">0</span></div>
+                </div>
+
+                <div class="main1">
+                    <div class="score1" id="change"><b>SCORE <span id="muqabla"></span></b></div>
+                </div>
+
+            </div>
+    </div>
+    </center>
+    <script src="app.js"></script>
+</body>
+
+</html>
