@@ -8,6 +8,7 @@ var muqabla = document.getElementById("muqabla")
 var fe = document.getElementById("fe")
 var btn = document.getElementById("btn")
 var star_btn = document.getElementById("star_btn")
+var modal = document.getElementById("modal")
 
 var ten = 10
 var winnumber= 0
@@ -48,8 +49,10 @@ function fesla() {
     if(ten == 0){
         if(winnumber >= 3){
             fe.innerHTML =  "Congrats! You won";
+            fe.style.color="green"
         }else{
           fe.innerHTML =  "Sorry! You loss try again"
+          fe.style.color="red"
         }
     }
 

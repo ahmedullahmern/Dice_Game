@@ -14,12 +14,13 @@ h1 {
     color: #fff;
 }
 
-.fe{
+.fe {
     position: relative;
     top: 70px;
     color: #fff;
     font-weight: 520;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
 }
 
 .Main {
@@ -75,7 +76,7 @@ h1 {
 
 }
 
-.score1{
+.score1 {
     margin-left: 15px;
     display: flex;
     justify-content: center;
